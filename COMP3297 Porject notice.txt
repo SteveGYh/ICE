@@ -1,0 +1,38 @@
+assume modules are created in the order to be completed
+upload the image.
+
+Requirements:
+Course CECU and description (create_course page).
+course category.
+
+Developing notice:
+constaint staff ID registration.
+log out button at every page.
+pass last module display different message.
+instructor supplmentary information needs validation
+course cate default
+view all course ins detail
+
+UI:
+course display looks like moodle.
+seperate the display of completed courses.
+Display the username?
+
+Communicate notice:
+new button at learner homepage
+two button at ins modify
+history page
+instructor key in CECU
+patch 04/16:
+update:
+-Instructor registration: First_name, Last_name and self_intro are collected now.
+-Instructor create new course: newly created course can be put into a category.
+-Instructor modify module: Each component can only be added to one module.
+-Learner view_all_course: Now Learner can view courses by category and their CECU values.
+-Token can only be used once now.
+-More components are added in the database for testing.
+-A more challenging quiz has replaced the old one in case you guys get bored doing the old one.
+
+
+limitations:
+staff registrate

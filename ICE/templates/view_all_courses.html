@@ -1,0 +1,50 @@
+{% extends 'learnerbase.html' %}
+{% block title %}Learn Enroll page{% endblock %}
+{% block body %}
+
+
+
+
+	<nav>
+	View by category: <br>
+	<a href="{% url 'allcourses' lid=lid cate=0 alert=0 %}">View all courses</a>
+	 ||
+	{% for a in cate %}
+	<a href="{% url 'allcourses' lid=lid cate=a.cateID alert=0 %}">{{a.title}}</a>
+	 ||
+	{% endfor %}
+  {% if alert == 1 %}
+	<div class="alert">
+	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+	You have successfully enrolled in the course!
+	</div>
+	{% endif %}
+
+	<div class="card-columns">
+		{% for c in courses %}
+			{% if c.enroll == 1 %}
+				<div class="card bg-light mb-3">
+					<img class="card-img-top" src="https://images.pexels.com/photos/1648839/pexels-photo-1648839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">{{c.title}}</h5>
+						<p class="card-text">Description: {{c.description}}</p>
+						<a href="{% url 'enroll' lid=lid cid=c.courseID %}" class="btn btn-info">Enroll</a>
+					</div>
+					<div class="card-footer">
+						<small class="text-muted">Taught by: {{c.taught_by}}</small>
+					</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+
+
+	</nav>
+	<footer>
+	<a href="{% url 'learner' id=lid %}" class="btn btn-primary">Back to homepage</a>
+	<div></div>
+
+	</footer>
+
+
+{% endblock %}

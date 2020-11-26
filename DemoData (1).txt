@@ -1,0 +1,288 @@
+# ﻿Note
+
+Please prepare the following data as much as possible in your system 
+for the final demo.
+
+If your system requires particular data format that does not match with 
+the given data, or requires additional data, please modify the data to fit 
+your system. (Do not modify the system to fit the data, you should follow
+the project description and task sheets)
+
+In case you need to modify the data to fit your system, please note 
+the change and let us know before the demonstration.
+
+## Update 1 (2019-04-26 21:30)
+- added titles for image components in Course 2
+- added CECU values for each course
+- added Quiz 3 for Course 1
+
+------------------------------------------------------------------------
+
+# User 1
+- Role: Instructor
+- Email: c3297@cs.hku.hk
+- Username: kitty
+- Password: Kty#3297b
+- First name: Kitty
+- Last name: Chan
+- Autobiography: Kitty is an instructor from London.
+
+# User 2
+- Role: Learner
+- StaffID: 00002123
+- Username: vmore
+- Password: vMr#3297b
+
+*...plus the following information retrieved from the HR system*
+- First name: Volar
+- Last name: Morghulis
+- Email: volarmorghulis@example.com
+
+# Categories
+- Mergers and Acquisitions
+- Markets
+- Risk Management
+- Securities
+- Financial Modelling
+- Operations
+- Fintech
+- Information Technology
+- Recreational Studies *(new category)*
+
+------------------------------------------------------------------------
+
+# Course 1
+- Title: Sanrio Characters
+- Category: Recreational Studies
+- CECU: 3
+- Description: This is a course about Sanrio Characters.
+- Instructor: Kitty
+
+## Text Component 1 in Course 1
+- Title: Entry 10
+- Content: This is the content of entry 10.
+
+## Text Component 2 in Course 1
+- Title: Entry 46
+- Content: This is the content of entry 46.
+
+## Text Component 3 in Course 1
+- Title: Entry 5
+- Content: This is the content of entry 5.
+
+## Text Component 4 in Course 1
+- Title: Entry 73
+- Content: This is the content of entry 73.
+
+## Image Component 1 in Course 1
+- Title: Kuromi
+- Content: fig2.jpg
+
+## Image Component 2 in Course 1
+- Title: Patapatapeppy
+- Content: fig3.jpg
+
+## Image Component 3 in Course 1
+- Title: My Melody
+- Content: fig4.jpg
+
+## Image Component 4 in Course 1
+- Title: The Runabouts
+- Content: fig7.jpg
+
+## Quiz 1 in Course 1 (when used, 3 out of 5 chosen and 2 out of 3 to pass)
+### Qusetion: I hope we’ll be good friends forever! 
+- A: Hello Kitty
+- B: Little Twin Stars
+- C: Gudetama
+- D: Tuxedosam
+
+Answer: D
+
+### Qusetion: I want to widen my circle of friends this year! 
+- A: Hello Kitty
+- B: Little Twin Stars
+- C: Gudetama
+- D: Tuxedosam
+
+Answer: A
+
+### Question: Some things don’t need to change. 
+- A: Hello Kitty
+- B: Little Twin Stars
+- C: My Melody
+- D: Tuxedosam
+
+Answer: C
+
+### Question: Wake me up when the new era begins… 
+- A: Hello Kitty
+- B: Little Twin Stars
+- C: Gudetama
+- D: Tuxedosam
+
+Answer: C
+
+### Question: The more you wander off the beaten path, the more discoveries and friends you can find! 
+- A: Hello Kitty
+- B: Little Twin Stars
+- C: Gudetama
+- D: Pochacco
+
+Answer: D
+
+## Quiz 2 in Course 1 (when used, 3 out of 5 chosen and 2 out of 3 to pass)
+### Question: Hello Kitty’s birthday? 
+- A: Nov 1
+- B: Nov 6
+- C: Nov 16
+- D: Nov 30
+
+Answer: A
+
+### Question: Hello Kitty’s height? 
+- A: 2 apples
+- B: 3 apples
+- C: 4 apples
+- D: 5 apples
+
+Answer: D
+
+### Question: Hello Kitty’s weight? 
+- A: 2 apples
+- B: 3 apples
+- C: 4 apples
+- D: 5 apples
+
+Answer: B
+
+### Question: Hello Kitty is … 
+- A: a cat
+- B: a girl
+- C: a boy
+- D: a creature
+
+Answer: B
+
+### Question: Hello Kitty’s sister is 
+- A: Charmmy Kitty
+- B: Little Twin Stars
+- C: My Melody
+- D: Mimmy
+
+Answer: D
+
+## Quiz 3 in Course 1 (when used, 3 out of 5 chosen and 2 out of 3 to pass)
+### Question: The birthday of Little Twin Stars is... 
+- A: Apr 1
+- B: Apr 27
+- C: Oct 31
+- D: Dec 24
+
+Answer: D
+
+### Question: The birthday of Kuromi is... 
+- A: Apr 1
+- B: Apr 27
+- C: Oct 31
+- D: Dec 24
+
+Answer: C
+
+### Question: The birthday of Bad Badtzu-Maru is 
+- A: Apr 1
+- B: Apr 27
+- C: Oct 31
+- D: Dec 24
+
+Answer: A
+
+### Question: The names of Little Twin Stars? 
+- A: Soso and Lala
+- B: Titi and Lala
+- C: Kiki and Lala
+- D: Momo and Lala
+
+Answer: C
+
+### Question: Patapatapeppy is... 
+- A: a girl
+- B: a boy
+- C: a cat
+- D: a bird
+
+Answer: B
+
+------------------------------------------------------------------------
+
+# Course 2
+- Title: Hello Kitty and Friends
+- Category: Recreational Studies
+- CECU: 5
+- Description: This is the course about Hello Kitty and Friends.
+- Instructor: Kitty
+
+## Text Component 1 in Course 2
+- Title: Entry 4
+- Content: This is the content of entry 4.
+
+## Text Component 2 in Course 2
+- Title: Entry 15
+- Content: This is the content of entry 15.
+
+## Text Component 3 in Course 2
+- Title: Entry 6
+- Content: This is the content of entry 6.
+
+## Image Component 1 in Course 2
+- Title: Hello Kitty
+- Content: fig1.jpg
+
+## Image Component 2 in Course 2
+- Title: Bad Badtz-Maru 
+- Content: fig8.jpg
+
+## Image Component 3 in Course 1
+- Title: Pochacco
+- Content: fig5.jpg
+
+## Quiz 1 in Course 2 (when used, 3 out of 5 chosen and 2 out of 3 to pass)
+### Question: The color of Bad Badtz-Maru? 
+- A: White
+- B: Black
+- C: Pink
+- D: Blue
+
+Answer: B
+
+### Question: The color of My Sweet Piano?
+- A: White
+- B: Black
+- C: Pink
+- D: Blue
+
+Answer: C
+
+### Question: The color of Patapatapeppy?
+- A: White
+- B: Black
+- C: Pink
+- D: Blue
+
+Answer: D
+
+### Question: The color of The Runabouts?
+- A: White
+- B: Black
+- C: Pink
+- D: Blue
+
+Answer: D
+
+### Question: The color of Pochacco?
+- A: White
+- B: Black
+- C: Pink
+- D: Blue
+
+Answer: A

@@ -1,0 +1,33 @@
+{% extends 'learnerbase.html' %}
+{% block title %}Learner history page{% endblock %}
+{% block body %}
+<header>
+  <h1>Module: {{title}}</h1>
+</header>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Pass-date</th>
+      <th scope="col">CECU</th>
+      <th scope="col">Cumulative-CECU</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for m in list %}
+    <tr>
+      <th scope="row">{{m.title}}</th>
+      <td>{{m.date}}</td>
+      <td>{{m.CECU}}</td>
+      <td>{{m.CCECU}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+  <footer>
+
+  </footer>
+
+{% endblock %}
